@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #2C394B;
+    
+    margin:0;
+}
+.content
+{
+    text-align: center;
+    background: #082032;    
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-radius: 18px;
+    
+}
+.content img
+{
+    border: double 4px cyan;
+    border-radius: 50%;
+}
+.content h2
+{
+    color: aliceblue;
+}
+.content h3
+{
+    color: aliceblue;
+}
+.btn
+{
+    background: darkcyan;
+    color: white;
+    border-radius: 8px;
+    border: double white;
+    width: 40%;
+    height: 30px;
+}
+.btn:hover
+{
+    background-color: cyan;
+    color: black;
+    border: double black;
+    transition: 0.5s;
+}
+.topright
+{
+    
+    background: darkcyan;
+    position: fixed;
+    color: antiquewhite;
+    width: 30%;
+    height: 15%;
+    
+}
+.topright h2
+{
+margin-top: 30px;
+}
+.topright img
+{
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+    border: double cyan;
+    width: 65px;
+}
+.labels
+{
+    top: 15%;
+    width: 30%;
+    background: #082032;
+    position: fixed;
+    color: antiquewhite;
+
+    height: 100%;
+}
+.labels label
+{
+    display: block;
+    text-align: center;
+    background: #082032;
+    padding: 20px 0;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.labels label:hover{
+    background: #2C394B;
+    transition: 0.3s;
+}
+.content_box button{
+    width: 65%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 19px;
+    border: solid 3px white;
+    color: aliceblue;
+    display: block;
+
+}
+.wa{
+    background: 
+    #1ee270;
+}
+.fb{
+    background: #3b5998 ;
+}
+.ig{
+    background: linear-gradient(#4f5bd5,#962fbf,#d62976,#fa7e1e);
+}
+.wa:hover{
+    border-radius: 25px;
+    height: 60px;
+    width: 70%;
+    transition: 0.3s;
+}
+.fb:hover{
+    border-radius: 25px;
+    height: 60px;
+    width: 70%;
+    transition: 0.3s;
+}
+.ig:hover{
+    border-radius: 25px;
+    height: 60px;
+    width: 70%;
+    transition: 0.3s;
+}
+.left
+{
+    position: absolute;
+    width: 70%;
+    left: 30%;
+    
+}
+.gambar{
+    border-radius: 50%;
+    width: 50%;
+
+    margin:30px 25% ;
+}
+.left input{
+    display: none;
+}
+.left input:checked + .content_box{
+    display: block;
+}
+.content_box
+{
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+    color: aliceblue;
+    margin-bottom: 50px;
+    display: none;
+}
